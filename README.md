@@ -8,8 +8,8 @@ A web application that displays movies to the users and also enables the user to
 
 Below are the screenshots of the application
 
-![Landing page]("src/assets/movie-landing-page.png") 
-![Search]("src/assets/movie-search-page.png") 
+![Landing page]("https://github.com/DorcasToto/search-movie-assingment/blob/master/src/assets/movie-landing-page.png") 
+![Search]("https://github.com/DorcasToto/search-movie-assingment/blob/master/src/assets/movie-search-page.png") 
 
 ## Features
 
