@@ -1,1 +1,78 @@
-<p>search-movie works!</p>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies</title>
+</head>
+
+<body>
+    <div class="" style="font-family: 'Jost', sans-serif;">
+        <nav class="navbar navbar-expand-lg navbar-dark indigo">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+                aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <a class="navbar-brand" href="#">Movie</a>
+                <ul class="navbar-nav mr-auto mt-lg-0">
+                    <li class="nav-item active">
+                        <a class="nav-link" routerLink="profile" routerLinkActive='Active'>MovieSearch <span
+                                class="sr-only">(current)</span></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="container">
+            <hr>
+
+            <div class="form-group mx-sm-3 mb-2">
+                <app-form-input (searchMovie)='performSearch($event)'></app-form-input>
+            </div>
+            <!-- <button type="submit" class="btn btn-primary mb-2" (click)="performSearch(searchTerm)">Search Movie</button> -->
+            <div *ngIf='movies'>
+                <div>
+                    <!-- Container -->
+                    <div class="row">
+
+                        <div class="col-md-3 mb-4 d-flex align-items-stretch" *ngFor='let movie of movies'>
+
+                            <!--Card-->
+                            <div class="card">
+
+                                <!--Card image-->
+                                <div class="view overlay">
+                                    <img src="{{movie.poster}}"
+                                        class="card-img-top" alt="">
+                                    <a href="#">
+                                        <div class="mask rgba-white-slight"></div>
+                                    </a>
+                                </div>
+
+                                <!--Card content-->
+                                <div class="card-body">
+                                    <!--Title-->
+                                    <h4 class="">{{movie.title}}</h4>
+                                    <!--Text-->
+                                    <p class="card-text">{{movie.year}}</p>
+                                </div>
+
+                            </div>
+                            <!--/.Card-->
+
+                        </div>
+                    </div>
+                   
+                  
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
