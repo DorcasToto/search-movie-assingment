@@ -8,7 +8,7 @@ A web application that displays movies to the users and also enables the user to
 
 Below are the screenshots of the application
 
-![Landing page](http://full/path/to/img.jpg "Landing page") ![Search page](http://full/path/to/img.jpg "Landing page")
+![Landing page]( "src/assets/movie-landing-page.png") ![Search]( "src/assets/movie-search-page.png") 
 
 ## Features
 
