@@ -19,7 +19,7 @@ export class SearchMovieComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    this.performSearch('hello')
+    this.performSearch('batman')
   }
 
 }
