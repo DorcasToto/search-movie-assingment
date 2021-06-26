@@ -8,16 +8,14 @@ A web application that displays movies to the users and also enables the user to
 
 Below are the screenshots of the application
 
-![Landing page]( "src/assets/movie-landing-page.png") ![Search]( "src/assets/movie-search-page.png") 
+![Landing page]("src/assets/movie-landing-page.png") 
+![Search]("src/assets/movie-search-page.png") 
 
 ## Features
 
 1. Search movie by title.
 2. Show all movies based on the search term.
 
-## Live Application
-
-You can view the live application using this [link](https://dorcastoto.github.io/GitSearch/) hosted by Netlify
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
