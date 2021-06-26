@@ -6,10 +6,11 @@ A web application that displays movies to the users and also enables the user to
 
 ## Screenshots
 
-Below are the screenshots of the application
+Below are the screenshots of the application'
 
-![Landing page]("https://github.com/DorcasToto/search-movie-assingment/blob/[master]/src/assets/movie-landing-page.png?raw=true") 
-![Search]("https://github.com/DorcasToto/search-movie-assingment/blob/master/src/assets/movie-search-page.png") 
+![movie-landing-page](https://user-images.githubusercontent.com/68597281/123527666-fd47d780-d6e9-11eb-95fa-b28f82a19766.png)
+![movie-search-page](https://user-images.githubusercontent.com/68597281/123527669-05a01280-d6ea-11eb-8ad9-9adc6165968e.png)
+
 <!-- ![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true) -->
 
 ## Features
